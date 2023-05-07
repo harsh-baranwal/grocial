@@ -1,6 +1,8 @@
-<img align="center" width="80px" height="80px" src="media/grocial.png" alt="Logo">
+<p align="center">
+  <img width="140px" height="140px" src="media/grocial.png" alt="Logo">
+</p>
 
-<h2 align="center">Grocial</h2>
+<h1 align="center">Grocial</h1>
 
 <p align="center">Grocial is a chatting webapp for group.</p>
 
