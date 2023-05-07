@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://theabbie.github.io/blog/assets/official-whatsapp-background-image.jpg");
+    background-color: white;
+    font-family: "Poppins";
+}
+
+.box {
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    margin-top: 30px;
+    max-width: 736px;
+    height: 555px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.head {
+    background: linear-gradient(30deg, #de6161, #2657eb, #de6161, #2657eb, #de6161, #2657eb);
+    background-size: 400% 100%;
+    animation: gradient 8s linear infinite;
+    animation-direction: alternate;
+    border: 0px solid transparent;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 60px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 100%;
+	}
+}
+
+.tlogo {
+    padding-top: 4px;
+    display: block;
+    margin: auto;
+    width: 125px;
+    height: 55px;
+}
+
+.container {
+    width: 100%;
+    height: 450px;
+    display: block;
+    overflow-y: auto;
+}
+
+.right p {
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
+
+.right a {
+    color: rgb(66, 66, 66);
+}
+
+.about {
+    padding: 30px 15%;
+}
+
+.left {
+    float: left;
+    padding-right: 10px;
+}
+
+.right {
+    padding-top: 50px;
+}
+
+.left img {
+    width: 200px;
+    height: 200px;
+}
+
+/* .thanks {
+    padding-top: 30px;
+    padding-left: -80px;
+}
+
+.thanks h1 {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 40px;
+} */
+
+.nav {
+    background-color: #fafafa;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 46px;
+    border-top: 1px solid rgb(197, 197, 197);
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.nav a {
+    padding-left: 9px;
+    padding-right: 9px;
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #02020a;
+    text-decoration: none;
+}
+
+.nav a#active {
+    color: black;
+}

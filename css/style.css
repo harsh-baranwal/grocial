@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url("https://theabbie.github.io/blog/assets/official-whatsapp-background-image.jpg");
+    background-color: white;
+    font-family: "Poppins";
+}
+
+.box {
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    margin-top: 30px;
+    max-width: 736px;
+    height: 555px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.head {
+    background-image: linear-gradient(30deg, #de6161, #2657eb);
+    border: 0px solid transparent;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 60px;
+}
+
+.tlogo {
+    padding-top: 4px;
+    display: block;
+    margin: auto;
+    width: 125px;
+    height: 50px;
+}
+
+.container {
+    width: 100%;
+    height: 72%;
+    display: block;
+    overflow-y: auto;
+}
+
+.container a {
+    text-decoration: underline;
+    color: white;
+}
+
+.message {
+    color: white;
+    margin: 5px 6px;
+    padding: 7px;
+    width: 30%;
+    border: 0px solid transparent;
+}
+
+.left {
+    background-image: linear-gradient(30deg, #de6161, #2657eb);
+    border-radius: 12px 12px 12px 0px;
+    float: left;
+    clear: both;
+}
+
+.right {
+    background-color: rgb(66, 66, 66);
+    border-radius: 12px 12px 0px 12px;
+    float: right;
+    clear: both;
+}
+
+.center {
+    text-align: center;
+    border: 0px solid transparent;
+    background-color: rgb(66, 66, 66);
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    clear: both;
+}
+
+.top {
+    color: white;
+    padding: 7px;
+    width: 60%;
+    text-align: center;
+    border: 0px solid transparent;
+    background-color: rgb(66, 66, 66);
+    border-radius: 12px;
+    margin: auto;
+    display: block;
+    clear: both;
+}
+
+.send {
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 100%;
+    height: auto;
+}
+
+#send-container {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    background-image: linear-gradient(30deg, #de6161, #2657eb);
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 18px;
+    width: 40px;
+    height: 38px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#messageInp {
+    padding-left: 10px;
+    border: 0px solid transparent;
+    border-radius: 18px;
+    width: 90%;
+    height: 38px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+/* Navbar is present below the line */
+
+.nav {
+    background-color: #fafafa;
+    overflow: hidden;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 7%;
+    border-top: 1px solid rgb(197, 197, 197);
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.nav a {
+    padding-left: 9px;
+    padding-right: 9px;
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #02020a;
+    text-decoration: none;
+}
+
+.nav a#active {
+    color: black;
+}
+

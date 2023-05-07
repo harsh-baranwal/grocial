@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="media/grocial.png" type="image/x-icon">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <title>Grocial - Let's connect together</title>
+</head>
+<body>
+    <div class="box">
+        <div class="head">
+        <img src="media/tg2_white.png" alt="logo" class="tlogo">
+        </div>
+
+        <div class="container">
+            <div class="info" style="padding-top: 8px;">
+            <a href="credit.html"><div class="top"><i class="material-icons" style="font-size: 15px;">explore</i> Welcome to Grocial! messages are end-to-end connected, every action will be recorded. Tap to learn more.</div></a>
+            </div>
+        </div>
+
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp">
+                <button class="btn" type="submit"><i class="material-icons" style="font-size: 18px;">send</i></button>
+            </form>
+        </div>
+
+        <div class="nav">
+            <a id="active" title="Chat" href="index.html"><i class="material-icons" style="font-size: 35px;">sms</i></a>
+            <a title="Credits" href="credit.html"><i class="material-icons" style="font-size: 35px;">person</i></a>
+            <a title="Share" href="#"><i class="material-icons" style="font-size: 35px;">share</i></a>
+        </div>
+    </div>
+</body>
+</html>
