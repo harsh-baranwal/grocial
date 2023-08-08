@@ -7,5 +7,3 @@
 <p align="center">Grocial is a chatting webapp for group.</p>
 
 - Running on localhost:8000:
-
-<img src="media/home.jpg" alt="Home">
